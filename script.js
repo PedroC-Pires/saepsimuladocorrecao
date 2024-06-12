@@ -9,5 +9,7 @@ function entrar(){
         goto("estudante.html")
     } else if(document.getElementById("biblio").checked){
         goto("biblio.html")
+    } else{
+        alert("Você deve selecionar 'Estudante' ou 'Bibliotecário' nas caixas de seleção.")
     }
 }
